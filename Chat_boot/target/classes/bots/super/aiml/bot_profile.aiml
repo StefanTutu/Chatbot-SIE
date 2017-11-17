@@ -1,0 +1,254 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml>
+
+<category>
+	<pattern> MY NAME IS *</pattern>
+	<template>Nice to meet you,<set name="name"><star/></set>. How old are you?</template>
+</category>
+
+<category>
+	<pattern>I AM * YEARS OLD</pattern>
+	<template>
+	<set name="age"><star/></set>.. What a beautiful age. What is your ocupation?
+	</template>
+</category>
+
+<category><pattern>I AM A *</pattern>
+<template><srai>OCUPATION <set name="ocupation"><star/></set></srai></template>
+</category>
+
+<category><pattern>OCUPATION STUDENT</pattern>
+<template>You're a student. What do you study?</template>
+</category>
+
+<category>
+   <pattern>I study *</pattern>
+   <template>
+	<srai>STUDY <set name="study"><star/></set></srai>
+	</template>
+</category>
+
+<category>
+   <pattern>STUDY MEDICINE</pattern>
+   <template>Wonderfull!What do you want to do after you finish your studies?</template>
+</category>
+
+<category>
+   <pattern>STUDY SIA</pattern>
+   <template>Interesting... although it sounds boring.!What do you want to do after you finish your studies?</template>
+</category>
+
+<category>
+   <pattern>_ GET A JOB</pattern>
+   <template>Of course you want to get a job. But were?</template>
+</category>
+
+<category>
+   <pattern>AT *</pattern>
+    <template>
+	<srai>JOB <set name="job"><star/></set></srai>
+	</template>
+</category>
+
+<category>
+   <pattern>JOB THE HOSPITAL</pattern>
+   <template>I get it. But for now, you have to learn for your exams. What is the hardest discipline from your point of view?</template>
+</category>
+
+<category>
+   <pattern>JOB ENDAVA</pattern>
+   <template>I get it. But for now, you have to learn for your exams. What is the hardest discipline from your point of view?</template>
+</category>
+
+<category>
+   <pattern>MACHINE LEARNING</pattern>
+   <template>Machine learning? What is that?</template>
+</category>
+
+<category>
+   <pattern>ANATOMY</pattern>
+   <template>Anatomy? What is that?</template>
+</category>
+
+<category>
+   <pattern>IT'S _ </pattern>
+   <template>Oh.. this scares me. Let's talk about something else. What kind of music do you listen to?</template>
+</category>
+
+<category>
+	<pattern>HIPHOP</pattern>
+	<template>I like Hip-Hop too. Where do you like to spend your free time?</template>
+</category>
+
+<category>
+   <pattern>ROCK</pattern>
+   <template>I like Rock too. Where do you like to spend your free time?</template>
+</category>
+
+<category>
+   <pattern>POP</pattern>
+   <template>I like POP too. Where do you like to spend your free time?</template>
+</category>
+
+<category>
+   <pattern>IN *</pattern>
+   <template>
+   <srai>PLACE <star/></srai>
+   </template>
+</category>
+
+<category>
+	<pattern>PLACE PARK</pattern>
+	<template>In nature, i get it. With whom you go there?</template>
+</category>
+
+<category>
+	<pattern>PLACE CLUBS</pattern>
+	<template>Oh, party people! With whom you go there?</template>
+</category>
+
+<category>
+	<pattern>WITH _</pattern>
+	<template>Great! What is your hobby?</template>
+</category>
+
+<category>
+	<pattern>ALONE</pattern>
+	<template>That is sad! What is your hobby?</template>
+</category>
+
+<category>
+	<pattern>FOOTBALL</pattern>
+	<template>I would like to see you play. I think i need to go now. I'm happy that i could talk to you. See you next time!</template>
+</category>
+
+<category>
+	<pattern>MUSIC</pattern>
+	<template>So you have a talent in music. I think i need to go now. I'm happy that i could talk to you. See you next time!</template>
+</category>
+
+
+<category><pattern>OCUPATION PROGRAMMER</pattern>
+<template>Programmer? What is that?</template>
+</category>
+
+<category>
+	<pattern>I write _</pattern>
+	<template>What do you work at now?</template>
+</category>
+
+<category>
+	<pattern>I work on an application _</pattern>
+	<template>Very interesting. What technology do you use?</template>
+</category>
+
+<category>
+	<pattern>I use *</pattern>
+	<template>I heard about <star/>. Where do you work?</template>
+</category>
+
+<category>
+	<pattern>I work at *</pattern>
+	<template>I don't know where <star/> is. Can you tell me?</template>
+</category>
+
+<category>
+	<pattern>It is at _</pattern>
+	<template>Now i know. Since when do you work there?</template>
+</category>
+<category>
+	<pattern>It is at *</pattern>
+	<template>Now i know. Since when do you work there?</template>
+</category>
+
+<category>
+	<pattern>* years</pattern>
+	<template>It's been a while! How are your colleagues?</template>
+</category>
+
+<category>
+	<pattern>* months</pattern>
+	<template>So.. How are your colleagues?</template>
+</category>
+
+<category>
+	<pattern>* days</pattern>
+	<template>So you are the new guy! How are your colleagues?</template>
+</category>
+
+<category>
+	<pattern>They are _</pattern>
+	<template>I understand. I think it is very important to feel good in your collective. Tell me how is your life after work. How do you spend your free time? </template>
+</category>
+
+<category>
+	<pattern>In my free time _</pattern>
+	<template>So this is how you forget about work. Very well then. I think i need to go now. I'm happy that i could talk to you. See you next time!</template>
+</category>
+
+<category><pattern>OCUPATION TEACHER</pattern>
+<template>I think that teachers are so cool. What do teach?</template>
+</category>
+
+<category><pattern>I teach *</pattern>
+<template>I was never good at <set name = "course"><star/></set>. What grade do you teach?</template>
+</category>
+
+<category><pattern>I teach at _</pattern>
+<template>I guess that is hard. How do you feel in front of the class?</template>
+</category> 
+
+<category><pattern>I feel _</pattern>
+<template>I understand. Have you thought about teaching another class? What's that?</template>
+</category>
+
+<category><pattern>I thought about teaching _</pattern>
+<template>That's nice. But probably <get name = "course"/> will still be you'te favorite. What kind of extracurricular activity you have with your students?</template>
+</category>
+
+<category><pattern>My students and i _</pattern>
+<template>And what is the scop of this extracurricular activity?</template>
+</category>
+
+<category><pattern>The scope is _</pattern>
+<template>Very nice. What about you? Do you have kids? How many?</template>
+</category>
+
+<category><pattern>I have * kids</pattern>
+<template>They are so lucky to have a parent like you.  What games do you play with them?</template>
+</category>
+
+<category><pattern>I have don't have kids</pattern>
+<template>More free time for yourself. Enjoy it while you still can. I think i need to go now. I'm happy that i could talk to you. See you next time!</template>
+</category>
+
+<category><pattern>We play _</pattern>
+<template>That must be fun and the kids must love it. I think i need to go now. I'm happy that i could talk to you. See you next time!</template>
+</category>
+
+<category><pattern>What is my name?</pattern>
+<template>Your name is <get name = "name"/>.</template>
+</category>
+
+
+<category>
+	<pattern>BYE</pattern>
+	  <template>
+         <random>
+            <li>Bye</li>
+            <li>Have a nice day!</li>
+         </random>
+      </template>
+</category>
+
+<category>
+	<pattern>SEE YA</pattern>
+	  <template>
+         <random>
+            <li>Bye</li>
+            <li>Have a nice day!</li>
+         </random>
+      </template>
+</category>
+
+</aiml>

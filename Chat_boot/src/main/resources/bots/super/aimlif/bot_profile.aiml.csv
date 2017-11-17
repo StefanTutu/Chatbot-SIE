@@ -1,0 +1,49 @@
+0,MY NAME IS *,*,*,Nice to meet you#Comma <set name="name"><star/></set>. How old are you?,bot_profile.aiml
+0,I AM * YEARS OLD,*,*,<set name="age"><star/></set>.. What a beautiful age. What is your occupation?,bot_profile.aiml
+0,I AM A *,*,*,<srai>OCUPATION <set name="occupation"><star/></set></srai>,bot_profile.aiml
+0,OCUPATION STUDENT,*,*,You're a student. What do you study?,bot_profile.aiml
+0,I STUDY *,*,*,<srai>STUDY <set name="study"><star/></set></srai>,bot_profile.aiml
+0,STUDY MEDICINE,*,*,Wonderfull!What do you want to do after you finish your studies?,bot_profile.aiml
+0,STUDY COMPUTER SCIENCE,*,*,Interesting... although it sounds boring.!What do you want to do after you finish your studies?,bot_profile.aiml
+0,_ GET A JOB,*,*,Of course you want to get a job. But were?,bot_profile.aiml
+0,AT *,*,*,<srai>JOB <set name="job"><star/></set></srai>,bot_profile.aiml
+0,JOB THE HOSPITAL,*,*,I get it. But for now#Comma you have to learn for your exams. What is the hardest discipline from your point of view?,bot_profile.aiml
+0,JOB ENDAVA,*,*,I get it. But for now#Comma you have to learn for your exams. What is the hardest discipline from your point of view?,bot_profile.aiml
+0,MACHINE LEARNING,*,*,Machine learning? What is that?,bot_profile.aiml
+0,ANATOMY,*,*,Anatomy? What is that?,bot_profile.aiml
+0,IT'S _,*,*,Oh.. this scares me. Let's talk about something else. What kind of music do you listen to?,bot_profile.aiml
+0,HIPHOP,*,*,I like Hip-Hop too. Where do you like to spend your free time?,bot_profile.aiml
+0,ROCK,*,*,I like Rock too. Where do you like to spend your free time?,bot_profile.aiml
+0,POP,*,*,I like Pop too. Where do you like to spend your free time?,bot_profile.aiml
+0,IN *,*,*,<srai>PLACE <star/></srai>,bot_profile.aiml
+0,PLACE PARK,*,*,In nature#Comma i get it. With whom you go there?,bot_profile.aiml
+0,PLACE CLUB,*,*,Oh#Comma party people! With whom you go there?,bot_profile.aiml
+0,WITH _,*,*,Great! What is your hobby?,bot_profile.aiml
+0,ALONE,*,*,That is sad! What is your hobby?,bot_profile.aiml
+0,FOOTBAL,*,*,I would like to see you play. I think i need to go now. I'm happy that i could talk to you. See you next time!,bot_profile.aiml
+0,MUSIC,*,*,So you have a talent in music. I think i need to go now. I'm happy that i could talk to you. See you next time!,bot_profile.aiml
+0,BYE,*,*,<random><li>Bye</li><li>Have a nice day!</li></random>,bot_profile.aiml
+0,SEE YA,*,*,<random><li>Bye</li><li>Have a nice day!</li></random>,bot_profile.aiml
+0,OCUPATION PROGRAMMER,*,*,Programmer? What is that?,bot_profile.aiml
+0,I WRITE _,*,*,What do you work at now?,bot_profile.aiml
+0,I work on an application _,*,*,Very interesting. What technology do you use?,bot_profile.aiml
+0,I use *,*,*,I heard about <star/>. Where do you work?,bot_profile.aiml
+0,I work at *,*,*,I don't know where <star/> is. Can you tell me?,bot_profile.aiml
+0,It is at _,*,*,Now i know. Since when do you work there?,bot_profile.aiml
+0,It is at *,*,*,Now i know. Since when do you work there?,bot_profile.aiml
+0,* years,*,*,It's been a while! How are your colleagues?,bot_profile.aiml
+0,* months,*,*,So.. How are your colleagues?,bot_profile.aiml
+0,* days,*,*,So you are the new guy! How are your colleagues?,bot_profile.aiml
+0,They are _,*,*,I understand. I think it is very important to feel good in your collective. Tell me how is your life after work. How do you spend your free time?,bot_profile.aiml
+0,In my free time _,*,*,So this is how you forget about work. Very well then. I think i need to go now. I'm happy that i could talk to you. See you next time!,bot_profile.aiml
+0,OCUPATION TEACHER,*,*,I think that teachers are so cool. What do teach?,bot_profile.aiml
+0,I teach *,*,*,I was never good at <set name = "course"><star/></set>. What grade do you teach at?,bot_profile.aiml
+0,I teach at _,*,*,I guess that is hard. How do you feel in front of the class?,bot_profile.aiml
+0,I feel _,*,*,I understand. Have you thought about teaching another class? What's that?,bot_profile.aiml
+0,I thought about teaching _,*,*,That's nice. But probably <get name = "course"/> will still be you'te favorite. What kind of extracurricular activity you have with your students?,bot_profile.aiml
+0,My students and i _,*,*,And what is the scop of this extracurricular activity?,bot_profile.aiml
+0,The scope is _,*,*,Very nice. What about you? Do you have kids? How many?,bot_profile.aiml
+0,I have * kids,*,*,They are so lucky to have a parent like you.  What games do you play with them?,bot_profile.aiml
+0,We play _,*,*,That must be fun and the kids must love it. I think i need to go now. I'm happy that i could talk to you. See you next time!,bot_profile.aiml
+0,I don't have kids,*,*,More free time for yourself. Enjoy it while you still can. I think i need to go now. I'm happy that i could talk to you. See you next time!,bot_profile.aiml
+0,What is my name?,*,*,Your name is <get name = "name"/>.,bot_profile.aiml

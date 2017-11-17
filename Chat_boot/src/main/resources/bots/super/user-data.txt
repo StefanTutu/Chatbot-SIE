@@ -1,0 +1,35 @@
+Nume: Stefan
+Varsta: 22
+Ocupatie: student
+
+Nume: Stefan.
+Varsta: 21
+Ocupatie: student.
+
+Nume: Stefan.
+Varsta: 21
+Ocupatie: student.
+
+Nume: Andreea.
+Varsta: My
+Ocupatie: programmer.
+
+Nume: Daniel.
+Varsta: 23
+Ocupatie: teacher.
+
+Nume: Stefan.
+Varsta: 21
+Ocupatie: student.
+
+Nume: Stefan.
+Varsta: 21
+Ocupatie: 	I
+
+Nume: Stefan
+Varsta: 21
+Ocupatie: student
+
+Nume: Andreea.
+Varsta: 22
+Ocupatie: programmer.

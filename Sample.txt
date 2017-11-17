@@ -1,0 +1,45 @@
+My name is Stefan.
+I am 21 years old. 
+I am a student.
+Study computer science.
+I want to get a job.
+At Endava.
+Machine learning.
+It's a type of artificial intelligence.
+Pop. 
+In club.
+With my friends.
+Footbal.
+What is my name ?
+What is my age ?
+What is my occupation?
+
+My name is Andreea.
+I am 22 years old. 
+I am a programmer.
+I write code.
+I work on an application for machine learning.
+I use java.
+I work at Endava.
+It is at Palas Mall.
+I have been working for 2 years.
+They are funny people.
+In my free time I read books.
+What is my name ?
+What is my age ?
+What is my occupation?
+
+My name is Daniel.
+I am 23 years old. 
+I am a teacher.
+I teach dance.
+I teach at kindergarten.
+I feel good.
+I thought about teaching other class such as Sport.
+My students and I attend dance competitions.
+The scope is to have fun and enjoy the show.
+I have 2 kids.
+We play board game.
+What is my name ?
+What is my age ?
+What is my occupation?
